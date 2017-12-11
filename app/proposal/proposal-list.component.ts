@@ -7,9 +7,9 @@ import { Proposal } from './proposal';
 	templateUrl: 'proposal-list.component.html'
 })
 export class ProposalListComponent {
-	proposalOne: Proposal = new Proposal(15, 'Abc Company', 'https://portfolio.nickwilliams.com', 'Ruby on Rails', 150, 120, 15, 'nick@test.com')
-	proposalTwo: Proposal = new Proposal(100, 'cool Company', 'https://portfolio.nickwilliams.com', 'Ruby on Rails', 150, 120, 15, 'nick@test.com')
-	proposalThree: Proposal = new Proposal(150, 'Dude Company', 'https://portfolio.nickwilliams.com', 'Ruby on Rails', 150, 120, 15, 'nick@test.com')
+	proposalOne: Proposal = new Proposal(15, 'Abc Company', 'https://portfolio.nickwilliams.com', 'Ruby on Rails', 150, 120, 'nick@test.com')
+	proposalTwo: Proposal = new Proposal(100, 'cool Company', 'https://portfolio.nickwilliams.com', 'Ruby on Rails', 150, 120, 'nick@test.com')
+	proposalThree: Proposal = new Proposal(150, 'Dude Company', 'https://portfolio.nickwilliams.com', 'Ruby on Rails', 150, 120, 'nick@test.com')
   
   proposals: Proposal[] = [
     this.proposalOne, 

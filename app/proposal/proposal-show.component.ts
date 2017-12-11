@@ -9,7 +9,7 @@ import { Proposal } from './proposal';
 })
 export class ProposalShowComponent implements OnInit {
 	id: number;
-	routeId: any:
+	routeId: any;
 
 	constructor(
 		private route: ActivatedRoute
